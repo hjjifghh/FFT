@@ -16,4 +16,4 @@ assign prod4 = a_imag * b_real;
 assign out_real = (prod1 - prod2) >>> (DATA_WIDTH-1);
 assign out_imag = (prod3 + prod4) >>> (DATA_WIDTH-1);
 
-endmodule
+endmodule 
